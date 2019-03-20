@@ -1,0 +1,324 @@
+body{
+	font-size:12px;
+	font-family: arial, tahoma;
+	color:#333;
+	text-align:center;
+	padding-top: 0px;
+}
+h2, h3 {
+	font-weight:normal;
+	margin-top: 0px;
+}
+
+a, a:visited {
+	color:navy;
+}
+a:hover {
+	color:#f00;
+}
+hr {
+	width:890px;
+}
+.copyright {
+	margin-top:10px;
+	border-top:4px solid #C0C0C0;
+	padding: 10px 0 0 0;
+}
+.copyright div {
+	text-align:center;
+	font-size:92%;
+}
+.info {
+	margin-top:60px;
+	padding:10px 10px;
+	width:200px;
+	font-size:92%;
+	border-top:2px solid #c0c0c0;
+}
+form {
+	background-color: white;
+	padding-top: 10px;
+}
+label {
+	font-weight:600;
+}
+
+.eisp {
+	font-style:italic;
+	margin-bottom: 20px;
+}
+.tab_header {
+	margin-left: 5px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.result {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 480px;
+	position: relative;
+}
+.missing {
+	color: #CCC;
+}
+.annotation {
+	width: 180px;
+	height: 160px;
+	position: absolute;
+	right: 0px;
+	margin-right: 90px;
+	margin-top: 25px;
+}
+.annotation p {
+	font-size: 22px; 
+	font-weight: 900;
+	font-style: italic;
+	font-family: Arial, Geneva, sans-serif;
+	line-height: 0.5;
+}
+section input {
+	display: none;
+}
+
+input:checked + label {
+    background: #CCC;
+}
+            
+.first:checked ~ .first-article {
+    display: block;
+}
+            
+.second:checked ~ .second-article {
+    display: block;
+}
+
+.third:checked ~ .forth-article {
+    display: block;
+}
+.forth:checked ~ .forth-article {
+    display: block;
+}
+
+section {
+    -webkit-animation: 0.1s hack infinite;
+}
+            
+@-webkit-keyframes hack {
+    from {margin: 0; padding: 0;}
+    to {margin: 0; padding: 0;}
+}
+            
+article {
+    display: none;
+	border: 1px solid #999;
+	position: relative;
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+label {
+	width: 120px;
+	height: 25px;
+	border-radius: 3px 3px 0 0;
+	border: 1px solid #999;
+	border-bottom: 0;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	bottom: -5px;
+	cursor: pointer;
+	font-weight: 900;
+	font-size: 110%;
+}
+
+label:hover {
+	background: #EEE;
+	bottom: 0px;
+}
+
+label:active {
+	background: #DDD;
+}
+
+.button {
+	height: 480px;
+	width: 50px;
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.button:hover {
+	background-color: white;
+	opacity: 0.4;
+	transition: 0.5s;
+}
+.right {
+	right: 0;
+	background-image: url(images/arrowRight.png);
+}
+.left {
+	background-image: url(images/arrowLeft.png);
+}
+.topMenu {
+	padding-bottom: 10px;	
+}
+.tab {
+		
+}
+option:checked {
+	background: #CCC;
+}
+.select {
+	display: inline-block;
+}
+.tab_header {
+	font-weight: bold;
+	background-color: #F0F0F0;
+	display: block;
+	margin: 0;
+	padding: 10px 5px;
+}
+.tab_header hr {
+	width: 870px
+}
+.tab_inner {
+	background-color: #ffffff;
+	height: 30px;
+	width: 880px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+select {
+	margin-left: 5px;
+}
+.calendar {
+	cursor: pointer;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	width: 440px;
+	position: relative;
+	height: 240px;
+}
+.header {
+	font-weight: bold;
+}
+.yearsBox, .monthsBox {
+	border: 1px solid;
+	width: 75px;
+	height: 220px;
+	overflow: hidden;
+	margin-right: 1px;
+}
+.yearsBox ul, .monthsBox ul {
+	padding: 0;
+	text-align: center;
+}
+.yearsBox ul li, .monthsBox ul li {
+	list-style-type: none;
+}
+.daysBox {
+	padding: 0;
+	float: left;
+}
+.daysBox td {
+	width: 25px;
+	height: 25px;
+	border: 1px solid;
+}
+.include {
+	background-color: #c6d7f2;
+}
+.selected {
+	background-color: #87c7ff;
+}
+.missing {
+	color: #696868;
+	background-color: #f7cece;
+}
+.conteiner {
+	padding: 5px;
+	width: 119px;
+	height: 100px;
+	border: 1px solid;
+	text-align: left;
+	display: none;
+}
+.emptyDay {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid;
+}
+.monthDay {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid;
+}
+.hideDay {
+	display: none;
+}
+.satBox {
+	position: absolute;
+	bottom: -5px;
+	left: 155px;
+}
+.satelite {
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px;
+}
+.loading {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	margin-top: -15px;
+	background-color: skyblue;
+	animation: loading 0.2s infinite;
+}
+.loading img {
+	display: none;
+}
+@keyframes loading {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.satFilter {
+	margin-left: 5px;
+}
+.satFilter label {
+	position: relative;
+	display: block;
+	width: 50px;
+    height: 10px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 100%;
+    border: 0;
+    margin-top: 5px;
+}
+.satFilter input {
+	display: block;
+	margin-left: -3px;
+    margin-top: -13px;
+}
+.calendar div {
+	float: left;
+}
